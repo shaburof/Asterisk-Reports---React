@@ -1,0 +1,31 @@
+.graph {
+    margin: 0 30px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+
+    // @media (max-width: 1000px) {
+    //     margin: unset;
+    // }
+}
+
+.graphSection {
+    position: relative;
+}
+
+.switchButton {
+    position: absolute;
+    z-index: 1;
+    right: 35px;
+    top: 5px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    opacity: .7;
+    transition: .1s transform, .2s opacity;
+
+    &:hover {
+        transform: translateY(-1px);
+        opacity: 1;
+    }
+}

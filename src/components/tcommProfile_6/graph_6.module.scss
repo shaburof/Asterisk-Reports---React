@@ -1,0 +1,87 @@
+.graph {
+    margin: 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+
+    width: 100% !important;
+}
+
+.graph2 {
+    margin: 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+
+    width: 500px !important;
+}
+
+.graphArea {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    // @media (max-width: 1000px) {
+    //     flex-direction: column;
+    //     align-items: center;
+    // }
+}
+
+.graphAreaSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.phoneArea {
+    margin: 15px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-left: 30px;
+
+    @media (max-width: 1200px) {
+        padding-left: unset;
+    }
+}
+
+.phoneLine {
+    position: relative;
+    margin: 0;
+    height: 17px;
+
+    @media (max-width: 1200px) {
+        height: unset;
+    }
+}
+
+.phoneTitle {
+    font-weight: bold;
+    font-size: 11px;
+    font-style: normal;
+    color: rgb(116, 116, 116);
+    width: 155px;
+    display: inline-block;
+    text-align: right;
+
+    @media (max-width: 1200px) {
+        width: unset;
+        text-align: unset;
+    }
+}
+
+.phones {
+    padding-left: 16px;
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "downlevelIteration": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": false, // подчеркивает неиспользованние переменные в функциях
+    "noUnusedParameters": false, // подчеркивает неиспользованные параметры в функциях
+    "noImplicitReturns": false, // предупреждение если функция ничего не возвращает и для нее не указано возвращить :void
+    "noImplicitAny": false, // не ругаться на параметры функций без указания типа const fn=(param1) =>{}, у param1 неуказан тип
+  },
+  "include": [
+    "src"
+  ]
+}

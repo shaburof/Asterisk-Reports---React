@@ -1,0 +1,10 @@
+.rainbow__img{
+    display: block;
+    position: absolute;
+    width: 57px;
+    right: 20px;
+    top: -17px;
+    @media (max-width:1100px){
+        display: none;
+    }
+}

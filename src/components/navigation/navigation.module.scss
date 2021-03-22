@@ -1,0 +1,91 @@
+.subMunuColor0 {
+    background-color: #ff0000;
+
+    &:hover {
+        background-color: #f10000;
+    }
+}
+
+.subMunuColor1 {
+    background-color: #ffa500;
+
+    &:hover {
+        background-color: #f39e00;
+    }
+}
+
+.subMunuColor2 {
+    background-color: #ffff00;
+    color: black !important;
+
+    &:hover {
+        background-color: #f3f300;
+    }
+}
+
+.subMunuColor3 {
+    background-color: #008000;
+    color: white !important;
+
+    &:hover {
+        background-color: #007400;
+    }
+}
+
+.subMunuColor4 {
+    background-color: #3737f6;
+    color: white !important;
+
+    &:hover {
+        background-color: #3434eb;
+    }
+}
+
+.subMunuColor5 {
+    background-color: #4b0082;
+    color: white !important;
+
+    &:hover {
+        background-color: #460079;
+    }
+}
+
+.subMunuColor6 {
+    background-color: #ee82ee;
+
+    &:hover {
+        background-color: #db76db;
+    }
+}
+
+.submenu {
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.submenu__item {
+    color: white;
+    float: left;
+    cursor: pointer;
+    font-size: 11px;
+    // width: 130px;
+    padding: 0 18px;
+    height: 23px;
+    text-align: center;
+    border-radius: 0px 0px 7px 7px;
+    margin-right: -10px;
+    z-index: 5;
+    padding-top: 5px;
+    box-shadow: 2px 0 2px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+        color: white;
+    }
+
+}
+
+.submenu_pressed {
+    height: 35px;
+    padding-top: 17px;
+}
